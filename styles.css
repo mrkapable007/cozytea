@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    font-family: 'Source sans pro';
+}
+
+
+body {
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.logo-container {
+    padding: 5px;
+    width: 50px;
+    height: 10px;
+}
+
+.main-logo {
+    height: 65px
+}
+
+.menu-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 22px;
+    text-decoration: underline;
+    list-style: none;
+}
+
+.menu-nav li a{
+    color: #fff;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.after-container-1 {
+    justify-content: center;
+    text-align: center;
+    background: url('/resources/images/img-mission-background.webp');
+    width: 1200px;
+    height: 700px;
+}
+
+.mission {
+    margin-top: 250px;
+    background-color: #000;
+    opacity: 0.9;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.tea-of-the-month{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.images-mid {
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.img-mid p{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.section-location {
+    background: url('/resources/images/img-locations-background.webp');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    opacity: 0.9;
+
+}
+
+div.loca-2{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 700px;
+}
+
+.section.section-location {
+    margin-top: 65px;
+}
+
+section.section-location {
+    margin-top: 60px;
+}
+
+.loca-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.location-section {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    border: solid 1px #efefef;
+    background-color: #000;
+    opacity: 0.7;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 20px;
+}
+
+.location-section a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+section.final-section {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 0.8;
+    margin: 50px;
+}
+
+footer {
+    text-align: left;
+}
+
+footer p {
+    margin-top: 65px;
+    color: #fff;
+    margin: 60px;
+}
+
+
+
